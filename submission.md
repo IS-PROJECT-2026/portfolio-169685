@@ -10,7 +10,7 @@
 
 ## 2. Deployed Project Link
 
-- **Live GitHub Pages URL:** [Paste your live deployment link here]
+- **Live GitHub Pages URL:** [https://is-project-2026.github.io/portfolio-169685/]
   *(Example: https://is-project-2026.github.io/hospital-management-138141/)*
 
 ---
