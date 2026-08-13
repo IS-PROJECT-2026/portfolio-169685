@@ -1,4 +1,6 @@
-/* General Styles */
+/* =========================
+   General Styles
+========================= */
 
 * {
     margin: 0;
@@ -11,12 +13,21 @@ html {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
+    color: #222;
+    background-color: #ffffff;
+}
+
+.section-container {
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 
-/* Navigation */
+/* =========================
+   Navigation
+========================= */
 
 nav {
     display: flex;
@@ -24,22 +35,35 @@ nav {
     align-items: center;
 
     padding: 20px 8%;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.logo {
+    font-size: 1.5rem;
 }
 
 nav ul {
     display: flex;
+    align-items: center;
     list-style: none;
-    gap: 25px;
+    gap: 30px;
 }
 
 nav a {
+    color: #222;
     text-decoration: none;
-    color: black;
     font-size: 1rem;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    opacity: 0.6;
 }
 
 
-/* Hero Section */
+/* =========================
+   Hero Section
+========================= */
 
 .hero {
     min-height: 80vh;
@@ -48,25 +72,33 @@ nav a {
     flex-direction: column;
     justify-content: center;
 
-    padding: 80px 10%;
+    max-width: 1100px;
+    margin: 0 auto;
+
+    padding: 80px 8%;
 }
 
 .developer-title {
     font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .hero h1 {
     font-size: 4rem;
-    margin: 15px 0;
+    line-height: 1.2;
+    margin-bottom: 20px;
 }
 
 .introduction {
-    font-size: 1.2rem;
     max-width: 700px;
+    font-size: 1.2rem;
 }
 
 
-/* Buttons */
+/* =========================
+   Buttons
+========================= */
 
 .hero-buttons {
     display: flex;
@@ -75,27 +107,45 @@ nav a {
 }
 
 .btn {
+    display: inline-block;
+
     padding: 12px 24px;
+
     text-decoration: none;
     border-radius: 5px;
+
     font-size: 1rem;
+
+    transition: 0.3s;
 }
 
 .primary-btn {
-    background-color: black;
+    background-color: #222;
     color: white;
 }
 
+.primary-btn:hover {
+    background-color: #444;
+}
+
 .secondary-btn {
-    border: 1px solid black;
-    color: black;
+    border: 1px solid #222;
+    color: #222;
+}
+
+.secondary-btn:hover {
+    background-color: #222;
+    color: white;
 }
 
 
-/* About Section */
+/* =========================
+   About Section
+========================= */
 
 .about {
-    padding: 100px 10%;
+    padding: 100px 8%;
+    background-color: #f7f7f7;
 }
 
 .about h2 {
@@ -109,6 +159,11 @@ nav a {
     margin-bottom: 20px;
 }
 
+
+/* =========================
+   Skills
+========================= */
+
 .about-skills {
     margin-top: 40px;
 }
@@ -121,48 +176,189 @@ nav a {
 .about-skills ul {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
 
     list-style: none;
+    gap: 15px;
 }
 
 .about-skills li {
-    border: 1px solid black;
-    padding: 10px 15px;
+    padding: 10px 16px;
+
+    border: 1px solid #222;
     border-radius: 5px;
+
+    font-size: 0.95rem;
 }
 
 
-/* Mobile Responsive Design */
+/* =========================
+   Professional Experience
+========================= */
+
+.experience {
+    padding: 100px 8%;
+}
+
+.experience h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.experience-item {
+    max-width: 850px;
+
+    padding: 35px;
+
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+
+    gap: 30px;
+
+    margin-bottom: 20px;
+}
+
+.experience-header h3 {
+    font-size: 1.5rem;
+}
+
+.experience-role {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.experience-date {
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.experience-item ul {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.experience-item li {
+    margin-bottom: 12px;
+}
+
+
+/* =========================
+   Projects
+========================= */
+
+.projects {
+    padding: 100px 8%;
+    background-color: #f7f7f7;
+}
+
+.projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.project-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 25px;
+}
+
+.project-card {
+    padding: 30px;
+
+    background-color: white;
+
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+}
+
+.project-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    margin-bottom: 20px;
+}
+
+.project-card span {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+
+/* =========================
+   Contact
+========================= */
+
+.contact {
+    padding: 100px 8%;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    max-width: 650px;
+
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+
+/* =========================
+   Footer
+========================= */
+
+footer {
+    padding: 30px 8%;
+
+    text-align: center;
+
+    background-color: #222;
+    color: white;
+}
+
+
+/* =========================
+   Tablet and Mobile
+========================= */
 
 @media (max-width: 768px) {
 
     /* Navigation */
+
     nav {
         flex-direction: column;
-        gap: 20px;
+        gap: 15px;
+
         text-align: center;
     }
 
     nav ul {
         flex-wrap: wrap;
         justify-content: center;
+
         gap: 15px;
     }
 
 
     /* Hero */
+
     .hero {
         min-height: 70vh;
-        padding: 60px 8%;
+        padding: 70px 8%;
     }
 
     .hero h1 {
         font-size: 2.8rem;
-    }
-
-    .developer-title {
-        font-size: 1rem;
     }
 
     .introduction {
@@ -171,37 +367,55 @@ nav a {
 
 
     /* Buttons */
+
     .hero-buttons {
         flex-direction: column;
         width: 100%;
     }
 
     .btn {
-        text-align: center;
         width: 100%;
+        text-align: center;
     }
 
 
-    /* About */
-    .about {
+    /* Sections */
+
+    .about,
+    .experience,
+    .projects,
+    .contact {
         padding: 70px 8%;
     }
 
-    .about h2 {
+    .about h2,
+    .experience h2,
+    .projects h2,
+    .contact h2 {
         font-size: 2rem;
     }
 
-    .about p {
-        font-size: 1rem;
+
+    /* Experience */
+
+    .experience-header {
+        flex-direction: column;
+        gap: 8px;
     }
 
-    .about-skills ul {
-        gap: 10px;
+
+    /* Projects */
+
+    .project-grid {
+        grid-template-columns: 1fr;
     }
+
 }
 
 
-/* Small Mobile Screens */
+/* =========================
+   Small Mobile Screens
+========================= */
 
 @media (max-width: 480px) {
 
@@ -209,8 +423,8 @@ nav a {
         padding: 15px 6%;
     }
 
-    nav h2 {
-        font-size: 1.4rem;
+    .logo {
+        font-size: 1.3rem;
     }
 
     nav ul {
@@ -221,28 +435,75 @@ nav a {
         font-size: 0.9rem;
     }
 
+
+    /* Hero */
+
     .hero {
-        padding: 50px 6%;
+        min-height: 65vh;
+        padding: 60px 6%;
     }
 
     .hero h1 {
         font-size: 2.2rem;
     }
 
+    .developer-title {
+        font-size: 1rem;
+    }
+
     .introduction {
         font-size: 1rem;
     }
 
-    .about {
+
+    /* Sections */
+
+    .about,
+    .experience,
+    .projects,
+    .contact {
         padding: 60px 6%;
     }
 
-    .about h2 {
+    .about h2,
+    .experience h2,
+    .projects h2,
+    .contact h2 {
         font-size: 1.8rem;
     }
+
+
+    /* Skills */
 
     .about-skills li {
         padding: 8px 12px;
         font-size: 0.9rem;
     }
+
+
+    /* Experience */
+
+    .experience-item {
+        padding: 20px;
+    }
+
+    .experience-header h3 {
+        font-size: 1.3rem;
+    }
+
+
+    /* Projects */
+
+    .project-card {
+        padding: 20px;
+    }
+
+
+    /* Footer */
+
+    footer {
+        padding: 25px 6%;
+        font-size: 0.9rem;
+    }
+
 }
