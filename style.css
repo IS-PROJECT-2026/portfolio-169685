@@ -824,7 +824,7 @@ footer {
     .footer-links {
         flex-direction: column;
         gap: 10px;
-        --accent: #00ff88;
+        --accent: #a7f35b;
     }
 
 }
