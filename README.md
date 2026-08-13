@@ -5,7 +5,7 @@ skills, experience, education, and projects.
 
 ## Live Demo
 
-[View the live portfolio](ADD_URL_AFTER_DEPLOYMENT)
+[View the live portfolio](https://is-project-2026.github.io/portfolio-169685/)
 
 ## Features
 
