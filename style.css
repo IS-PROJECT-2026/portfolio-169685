@@ -1,0 +1,248 @@
+/* General Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+/* Navigation */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 8%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+
+/* Hero Section */
+
+.hero {
+    min-height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 80px 10%;
+}
+
+.developer-title {
+    font-size: 1.1rem;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin: 15px 0;
+}
+
+.introduction {
+    font-size: 1.2rem;
+    max-width: 700px;
+}
+
+
+/* Buttons */
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.primary-btn {
+    background-color: black;
+    color: white;
+}
+
+.secondary-btn {
+    border: 1px solid black;
+    color: black;
+}
+
+
+/* About Section */
+
+.about {
+    padding: 100px 10%;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+}
+
+.about p {
+    max-width: 800px;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.about-skills {
+    margin-top: 40px;
+}
+
+.about-skills h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.about-skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    list-style: none;
+}
+
+.about-skills li {
+    border: 1px solid black;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+
+/* Mobile Responsive Design */
+
+@media (max-width: 768px) {
+
+    /* Navigation */
+    nav {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+
+    /* Hero */
+    .hero {
+        min-height: 70vh;
+        padding: 60px 8%;
+    }
+
+    .hero h1 {
+        font-size: 2.8rem;
+    }
+
+    .developer-title {
+        font-size: 1rem;
+    }
+
+    .introduction {
+        font-size: 1.1rem;
+    }
+
+
+    /* Buttons */
+    .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .btn {
+        text-align: center;
+        width: 100%;
+    }
+
+
+    /* About */
+    .about {
+        padding: 70px 8%;
+    }
+
+    .about h2 {
+        font-size: 2rem;
+    }
+
+    .about p {
+        font-size: 1rem;
+    }
+
+    .about-skills ul {
+        gap: 10px;
+    }
+}
+
+
+/* Small Mobile Screens */
+
+@media (max-width: 480px) {
+
+    nav {
+        padding: 15px 6%;
+    }
+
+    nav h2 {
+        font-size: 1.4rem;
+    }
+
+    nav ul {
+        gap: 10px;
+    }
+
+    nav a {
+        font-size: 0.9rem;
+    }
+
+    .hero {
+        padding: 50px 6%;
+    }
+
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+
+    .introduction {
+        font-size: 1rem;
+    }
+
+    .about {
+        padding: 60px 6%;
+    }
+
+    .about h2 {
+        font-size: 1.8rem;
+    }
+
+    .about-skills li {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+    }
+}
