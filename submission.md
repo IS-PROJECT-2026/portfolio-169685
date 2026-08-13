@@ -77,7 +77,9 @@ https://github.com/IS-PROJECT-2026/portfolio-169685/pull/15
 ## A. Milestones and Issues
 
 <!-- UPDATE: PASTE YOUR MILESTONES AND ISSUES SCREENSHOT DIRECTLY BELOW -->
+<img width="1280" height="545" alt="image" src="https://github.com/user-attachments/assets/df8aca3c-0cb9-4eb8-afbb-f6cb5dfc8a25" />
 
+<img width="1280" height="535" alt="image" src="https://github.com/user-attachments/assets/e00206c3-fd59-4ab5-a633-28f65a61af07" />
 
 - **Caption:**
 
@@ -91,6 +93,7 @@ specific tasks and features throughout the project.
 
 <!-- UPDATE: PASTE YOUR GITHUB PROJECT BOARD SCREENSHOT DIRECTLY BELOW -->
 
+<img width="1280" height="550" alt="image" src="https://github.com/user-attachments/assets/cbe90d4f-3aff-4181-a70f-4d9f65353dfc" />
 
 - **Caption:**
 
@@ -102,6 +105,7 @@ the `To Do`, `In Progress`, and `Done` columns during development.
 ## C. Branching Architecture
 
 <!-- UPDATE: PASTE YOUR BRANCH LIST SCREENSHOT DIRECTLY BELOW -->
+<img width="1266" height="566" alt="image" src="https://github.com/user-attachments/assets/81705de9-1143-4d82-a570-fded2747466d" />
 
 
 - **Caption:**
@@ -117,6 +121,7 @@ requests.
 
 <!-- UPDATE: PASTE A SCREENSHOT OF ONE OF YOUR PULL REQUESTS DIRECTLY BELOW -->
 
+<img width="1258" height="516" alt="image" src="https://github.com/user-attachments/assets/bc7d520a-dfa8-4b19-be81-5551e496062f" />
 
 - **Caption:**
 
@@ -156,7 +161,8 @@ merge and reported that the conflict needed to be resolved manually.
 
 ### Step 2: Inside the Code Editor — Conflict Markers
 
-<!-- UPDATE: PASTE THE SCREENSHOT SHOWING <<<<<<< HEAD, =======, AND >>>>>>> BELOW -->
+<!-- UPDATE: PASTE THE SCREENSHOT SHOWING <<<<<<< HEAD, =======, AND >>>>>>> BELOW --><img width="805" height="453" alt="image" src="https://github.com/user-attachments/assets/4f02f44c-6ecd-4e6b-ad84-25b04e0b9dfd" />
+
 
 ![Conflict 1 raw conflict markers](evidence/conflict_evidence_1.png)
 
@@ -196,7 +202,8 @@ file while another branch independently modifies that file. Git may not
 be able to automatically determine how the modifications should be
 applied to the renamed version, requiring manual resolution.
 
-<!-- UPDATE: PASTE YOUR CONFLICT 2 SCREENSHOT BELOW -->
+<!-- UPDATE: PASTE YOUR CONFLICT 2 SCREENSHOT BELOW --><img width="805" height="450" alt="image" src="https://github.com/user-attachments/assets/1ebcf97d-0f3b-4d41-b14d-7e18aba68bc8" />
+
 
 
 - **Caption:**
@@ -222,6 +229,7 @@ final version should keep the modified file or preserve the deletion, so
 manual resolution is required.
 
 <!-- UPDATE: PASTE YOUR CONFLICT 3 SCREENSHOT SHOWING THE MODIFY/DELETE CONFLICT BELOW -->
+<img width="809" height="453" alt="image" src="https://github.com/user-attachments/assets/3fcd9d1d-b886-45dc-84ab-cc55c2e4c01e" />
 
 ![Conflict 3 modify/delete conflict](evidence/conflict_evidence_3.png)
 
