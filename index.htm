@@ -7,554 +7,711 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
 
-    <title>Luis Okal | Developer Portfolio</title>
+    <meta name="description"
+          content="Portfolio of Luis Okal, an Informatics and Computer Science student and software developer.">
+
+    <title>Luis Okal | Software Developer Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Navigation -->
-    <nav>
-        <h2 class="logo">Luis Okal</h2>
-
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <!-- Skip Navigation Link -->
+    <a class="skip-link" href="#main-content">
+        Skip to main content
+    </a>
 
 
-    <!-- Hero Section -->
-    <main id="home">
+    <!-- Header and Navigation -->
+    <header class="site-header">
 
-        <section class="hero">
+        <nav class="navbar" aria-label="Main navigation">
 
-            <p class="developer-title">
-                Software Developer
-            </p>
+            <a href="#home" class="logo">
+                Luis Okal
+            </a>
 
-            <h1>
-                Hi, I'm Luis Okal
-            </h1>
 
-            <p class="introduction">
-                I am an Informatics and Computer Science student
-                passionate about building modern, useful, and
-                user-friendly software solutions.
-            </p>
+            <!-- Mobile Navigation Button -->
+            <button
+                class="menu-toggle"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="navigation-menu">
 
-            <div class="hero-buttons">
+                <span></span>
+                <span></span>
+                <span></span>
 
-                <a href="#projects" class="btn primary-btn">
-                    View My Work
-                </a>
+            </button>
 
-                <a href="#contact" class="btn secondary-btn">
-                    Contact Me
-                </a>
+
+            <!-- Navigation Links -->
+            <ul id="navigation-menu" class="nav-links">
+
+                <li>
+                    <a href="#home">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#about">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#education">
+                        Education
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#skills">
+                        Skills
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#experience">
+                        Experience
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#projects">
+                        Projects
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#contact">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- Main Content -->
+    <main id="main-content">
+
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+
+            <div class="hero-content">
+
+                <p class="developer-title">
+                    Software Developer
+                </p>
+
+                <!-- Main page heading: only one H1 -->
+                <h1>
+                    Hi, I'm Luis Okal
+                </h1>
+
+                <p class="introduction">
+                    I am an Informatics and Computer Science student
+                    passionate about building modern, useful, and
+                    user-friendly software solutions.
+                </p>
+
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="btn primary-btn">
+                        View my projects
+                    </a>
+
+                    <a href="#contact" class="btn secondary-btn">
+                        Contact Luis
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- About Section -->
+        <section id="about" class="about">
+
+            <div class="section-container">
+
+                <h2>About Me</h2>
+
+                <p>
+                    I am Luis Okal, an Informatics and Computer Science
+                    student with a passion for software development and
+                    technology.
+                </p>
+
+                <p>
+                    I enjoy building modern, practical, and user-friendly
+                    applications while continuously improving my skills in
+                    web development and software engineering.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- Education Section -->
+        <section id="education" class="education">
+
+            <div class="section-container">
+
+                <h2>Education</h2>
+
+                <div class="education-grid">
+
+
+                    <!-- Education Item 1 -->
+                    <article class="education-card">
+
+                        <div class="education-header">
+
+                            <div>
+
+                                <h3>
+                                    Strathmore University
+                                </h3>
+
+                                <p class="education-course">
+                                    Bachelor of Science in Informatics
+                                    and Computer Science
+                                </p>
+
+                            </div>
+
+                            <p class="education-date">
+                                Expected 2027
+                            </p>
+
+                        </div>
+
+                        <p>
+                            Currently pursuing a degree focused on
+                            software development, computer systems,
+                            databases, cloud computing, artificial
+                            intelligence, and other areas of computer
+                            science.
+                        </p>
+
+                    </article>
+
+
+                    <!-- Education Item 2 -->
+                    <article class="education-card">
+
+                        <div class="education-header">
+
+                            <div>
+
+                                <h3>
+                                    KIPS Technical College
+                                </h3>
+
+                                <p class="education-course">
+                                    ICDL Certificate
+                                </p>
+
+                            </div>
+
+                            <p class="education-date">
+                                2023
+                            </p>
+
+                        </div>
+
+                        <p>
+                            Completed training in essential computer
+                            skills and digital technologies.
+                        </p>
+
+                    </article>
+
+
+                    <!-- Education Item 3 -->
+                    <article class="education-card">
+
+                        <div class="education-header">
+
+                            <div>
+
+                                <h3>
+                                    Nairobi School
+                                </h3>
+
+                                <p class="education-course">
+                                    Kenya Certificate of Secondary Education
+                                </p>
+
+                            </div>
+
+                            <p class="education-date">
+                                2019 – 2022
+                            </p>
+
+                        </div>
+
+                        <p>
+                            Completed secondary education and developed
+                            a strong academic foundation before pursuing
+                            further studies in technology.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+
+            <div class="section-container">
+
+                <h2>Technical Skills</h2>
+
+                <p class="section-introduction">
+                    The technologies and tools I use while building
+                    software and web applications.
+                </p>
+
+
+                <div class="skills-grid">
+
+
+                    <!-- Languages -->
+                    <article class="skill-category">
+
+                        <h3>Programming Languages</h3>
+
+                        <ul>
+                            <li>Java</li>
+                            <li>JavaScript</li>
+                            <li>C++</li>
+                            <li>Python</li>
+                        </ul>
+
+                    </article>
+
+
+                    <!-- Frontend -->
+                    <article class="skill-category">
+
+                        <h3>Frontend Development</h3>
+
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                        </ul>
+
+                    </article>
+
+
+                    <!-- Backend -->
+                    <article class="skill-category">
+
+                        <h3>Backend Development</h3>
+
+                        <ul>
+                            <li>Node.js</li>
+                            <li>Express.js</li>
+                            <li>Django</li>
+                            <li>REST APIs</li>
+                        </ul>
+
+                    </article>
+
+
+                    <!-- Databases -->
+                    <article class="skill-category">
+
+                        <h3>Databases</h3>
+
+                        <ul>
+                            <li>MySQL</li>
+                            <li>SQLite</li>
+                            <li>Firebase</li>
+                        </ul>
+
+                    </article>
+
+
+                    <!-- Tools -->
+                    <article class="skill-category">
+
+                        <h3>Development Tools</h3>
+
+                        <ul>
+                            <li>Git</li>
+                            <li>GitHub</li>
+                            <li>Visual Studio Code</li>
+                            <li>IntelliJ IDEA</li>
+                            <li>Docker</li>
+                        </ul>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience">
+
+            <div class="section-container">
+
+                <h2>Professional Experience</h2>
+
+
+                <article class="experience-item">
+
+                    <div class="experience-header">
+
+                        <div>
+
+                            <h3>
+                                Software Development Projects
+                            </h3>
+
+                            <p class="experience-role">
+                                Student Developer
+                            </p>
+
+                        </div>
+
+                        <p class="experience-date">
+                            2024 – Present
+                        </p>
+
+                    </div>
+
+
+                    <p>
+                        Developing web and software applications through
+                        academic projects and personal development.
+                    </p>
+
+
+                    <ul>
+
+                        <li>
+                            Built responsive web applications using
+                            HTML, CSS, and JavaScript.
+                        </li>
+
+                        <li>
+                            Developed full-stack applications using
+                            React, Node.js, Express, and MySQL.
+                        </li>
+
+                        <li>
+                            Applied Git and GitHub for version control
+                            and collaborative software development.
+                        </li>
+
+                        <li>
+                            Designed and implemented practical software
+                            solutions for academic and personal projects.
+                        </li>
+
+                    </ul>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+
+            <div class="section-container">
+
+                <h2>Featured Projects</h2>
+
+                <p class="section-introduction">
+                    Here are some of the projects I have worked on while
+                    developing my software development skills.
+                </p>
+
+
+                <div class="project-grid">
+
+
+                    <!-- Project 1 -->
+                    <article class="project-card">
+
+                        <!--
+                        Example image structure:
+
+                        <img
+                            src="images/portfolio-project.jpg"
+                            alt="Screenshot of Luis Okal's personal developer portfolio homepage"
+                            class="project-image">
+                        -->
+
+                        <p class="project-number">
+                            Project 01
+                        </p>
+
+                        <h3>
+                            Developer Portfolio
+                        </h3>
+
+                        <p>
+                            A responsive personal portfolio website
+                            created to showcase my skills, experience,
+                            and software development projects.
+                        </p>
+
+                        <div class="project-technologies">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+
+                        </div>
+
+                        <a href="#home" class="project-link">
+                            View the Developer Portfolio project
+                        </a>
+
+                    </article>
+
+
+                    <!-- Project 2 -->
+                    <article class="project-card">
+
+                        <!--
+                        Example:
+
+                        <img
+                            src="images/thriftmart.jpg"
+                            alt="Screenshot of the ThriftMart e-commerce application"
+                            class="project-image">
+                        -->
+
+                        <p class="project-number">
+                            Project 02
+                        </p>
+
+                        <h3>
+                            ThriftMart
+                        </h3>
+
+                        <p>
+                            An e-commerce application designed to help
+                            users browse and interact with thrift
+                            products through a modern and user-friendly
+                            interface.
+                        </p>
+
+                        <div class="project-technologies">
+
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MySQL</span>
+
+                        </div>
+
+                        <a href="#contact" class="project-link">
+                            Ask about the ThriftMart project
+                        </a>
+
+                    </article>
+
+
+                    <!-- Project 3 -->
+                    <article class="project-card">
+
+                        <!--
+                        Example:
+
+                        <img
+                            src="images/easy-tasty.jpg"
+                            alt="Screenshot of the Easy Tasty recipe application"
+                            class="project-image">
+                        -->
+
+                        <p class="project-number">
+                            Project 03
+                        </p>
+
+                        <h3>
+                            Easy Tasty Recipe App
+                        </h3>
+
+                        <p>
+                            A recipe application that allows users to
+                            explore recipes and discover simple meal
+                            ideas through an easy-to-use interface.
+                        </p>
+
+                        <div class="project-technologies">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+
+                        </div>
+
+                        <a href="#contact" class="project-link">
+                            Ask about the Easy Tasty Recipe App
+                        </a>
+
+                    </article>
+
+
+                    <!-- Project 4 -->
+                    <article class="project-card">
+
+                        <p class="project-number">
+                            Project 04
+                        </p>
+
+                        <h3>
+                            Web Applications
+                        </h3>
+
+                        <p>
+                            A collection of academic and personal
+                            software projects focused on solving
+                            practical problems using modern web
+                            technologies.
+                        </p>
+
+                        <div class="project-technologies">
+
+                            <span>React</span>
+                            <span>Express</span>
+                            <span>MySQL</span>
+
+                        </div>
+
+                        <a href="#contact" class="project-link">
+                            Contact Luis about these web applications
+                        </a>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+
+            <div class="section-container">
+
+                <h2>Get In Touch</h2>
+
+                <p class="contact-introduction">
+                    Feel free to contact me if you would like to discuss
+                    a project, collaboration, internship, or software
+                    development opportunity.
+                </p>
+
+
+                <div class="contact-grid">
+
+
+                    <!-- Email -->
+                    <article class="contact-card">
+
+                        <h3>Email</h3>
+
+                        <p>
+                            Send me an email and I will get back to you.
+                        </p>
+
+                        <a href="mailto:your-email@example.com">
+                            Email Luis Okal
+                        </a>
+
+                    </article>
+
+
+                    <!-- GitHub -->
+                    <article class="contact-card">
+
+                        <h3>GitHub</h3>
+
+                        <p>
+                            View my portfolio repository and source code.
+                        </p>
+
+                        <a
+                            href="https://github.com/IS-PROJECT-2026/portfolio-169685"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="View Luis Okal's portfolio repository on GitHub">
+
+                            View portfolio repository on GitHub
+
+                        </a>
+
+                    </article>
+
+
+                    <!-- Availability -->
+                    <article class="contact-card">
+
+                        <h3>Availability</h3>
+
+                        <p>
+                            Available for collaboration, projects,
+                            internships, and software development
+                            opportunities.
+                        </p>
+
+                    </article>
+
+                </div>
+
+
+                <div class="contact-button">
+
+                    <a
+                        href="mailto:your-email@example.com"
+                        class="btn primary-btn">
+
+                        Send Luis an email
+
+                    </a>
+
+                </div>
 
             </div>
 
         </section>
 
     </main>
-
-
-    <!-- About Section -->
-    <section id="about" class="about">
-
-        <div class="section-container">
-
-            <h2>About Me</h2>
-
-            <p>
-                I am Luis Okal, an Informatics and Computer Science
-                student with a passion for software development and
-                technology.
-            </p>
-
-            <p>
-                I enjoy building modern, practical, and user-friendly
-                applications while continuously improving my skills in
-                web development and software engineering.
-            </p>
-
-        </div>
-
-    </section>
-
-
-    <!-- Education Section -->
-    <section id="education" class="education">
-
-        <div class="section-container">
-
-            <h2>Education</h2>
-
-            <div class="education-grid">
-
-                <article class="education-card">
-
-                    <div class="education-header">
-
-                        <div>
-
-                            <h3>Strathmore University</h3>
-
-                            <p class="education-course">
-                                Bachelor of Science in Informatics and
-                                Computer Science
-                            </p>
-
-                        </div>
-
-                        <span class="education-date">
-                            Expected 2027
-                        </span>
-
-                    </div>
-
-                    <p>
-                        Currently pursuing a degree focused on software
-                        development, computer systems, databases,
-                        cloud computing, and other areas of computer
-                        science.
-                    </p>
-
-                </article>
-
-
-                <article class="education-card">
-
-                    <div class="education-header">
-
-                        <div>
-
-                            <h3>KIPS Technical College</h3>
-
-                            <p class="education-course">
-                                ICDL Certificate
-                            </p>
-
-                        </div>
-
-                        <span class="education-date">
-                            2023
-                        </span>
-
-                    </div>
-
-                    <p>
-                        Completed training in essential computer skills
-                        and digital technologies.
-                    </p>
-
-                </article>
-
-
-                <article class="education-card">
-
-                    <div class="education-header">
-
-                        <div>
-
-                            <h3>Nairobi School</h3>
-
-                            <p class="education-course">
-                                Kenya Certificate of Secondary Education
-                            </p>
-
-                        </div>
-
-                        <span class="education-date">
-                            2019 - 2022
-                        </span>
-
-                    </div>
-
-                    <p>
-                        Completed secondary education and developed a
-                        strong academic foundation before pursuing
-                        further studies in technology.
-                    </p>
-
-                </article>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- Technical Skills Section -->
-    <section id="skills" class="skills">
-
-        <div class="section-container">
-
-            <h2>Technical Skills</h2>
-
-            <p class="section-introduction">
-                The technologies and tools I use while building
-                software and web applications.
-            </p>
-
-            <div class="skills-grid">
-
-                <div class="skill-category">
-
-                    <h3>Languages</h3>
-
-                    <ul>
-                        <li>Java</li>
-                        <li>JavaScript</li>
-                        <li>C++</li>
-                        <li>Python</li>
-                    </ul>
-
-                </div>
-
-
-                <div class="skill-category">
-
-                    <h3>Frontend</h3>
-
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>React</li>
-                    </ul>
-
-                </div>
-
-
-                <div class="skill-category">
-
-                    <h3>Backend</h3>
-
-                    <ul>
-                        <li>Node.js</li>
-                        <li>Express.js</li>
-                        <li>Django</li>
-                        <li>REST APIs</li>
-                    </ul>
-
-                </div>
-
-
-                <div class="skill-category">
-
-                    <h3>Databases</h3>
-
-                    <ul>
-                        <li>MySQL</li>
-                        <li>SQLite</li>
-                        <li>Firebase</li>
-                    </ul>
-
-                </div>
-
-
-                <div class="skill-category">
-
-                    <h3>Tools</h3>
-
-                    <ul>
-                        <li>Git</li>
-                        <li>GitHub</li>
-                        <li>VS Code</li>
-                        <li>IntelliJ IDEA</li>
-                        <li>Docker</li>
-                    </ul>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- Professional Experience Section -->
-    <section id="experience" class="experience">
-
-        <div class="section-container">
-
-            <h2>Professional Experience</h2>
-
-            <div class="experience-item">
-
-                <div class="experience-header">
-
-                    <div>
-
-                        <h3>Software Development Projects</h3>
-
-                        <p class="experience-role">
-                            Student Developer
-                        </p>
-
-                    </div>
-
-                    <span class="experience-date">
-                        2024 - Present
-                    </span>
-
-                </div>
-
-                <p>
-                    Developing web and software applications through
-                    academic projects and personal development.
-                </p>
-
-                <ul>
-
-                    <li>
-                        Built responsive web applications using HTML,
-                        CSS, and JavaScript.
-                    </li>
-
-                    <li>
-                        Developed full-stack applications using React,
-                        Node.js, Express, and MySQL.
-                    </li>
-
-                    <li>
-                        Applied Git and GitHub for version control and
-                        collaborative software development.
-                    </li>
-
-                    <li>
-                        Designed and implemented practical software
-                        solutions for academic and personal projects.
-                    </li>
-
-                </ul>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-
-        <div class="section-container">
-
-            <h2>My Projects</h2>
-
-            <p class="section-introduction">
-                Here are some of the projects I have worked on while
-                developing my software development skills.
-            </p>
-
-            <div class="project-grid">
-
-                <article class="project-card">
-
-                    <div class="project-number">01</div>
-
-                    <h3>Developer Portfolio</h3>
-
-                    <p>
-                        A responsive personal portfolio website created
-                        to showcase my skills, experience, and software
-                        development projects.
-                    </p>
-
-                    <div class="project-technologies">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                    </div>
-
-                    <a href="#" class="project-link">
-                        View Project →
-                    </a>
-
-                </article>
-
-
-                <article class="project-card">
-
-                    <div class="project-number">02</div>
-
-                    <h3>ThriftMart</h3>
-
-                    <p>
-                        An e-commerce application designed to help users
-                        browse and interact with thrift products through
-                        a modern and user-friendly interface.
-                    </p>
-
-                    <div class="project-technologies">
-                        <span>React</span>
-                        <span>Node.js</span>
-                        <span>MySQL</span>
-                    </div>
-
-                    <a href="#" class="project-link">
-                        View Project →
-                    </a>
-
-                </article>
-
-
-                <article class="project-card">
-
-                    <div class="project-number">03</div>
-
-                    <h3>Easy Tasty Recipe App</h3>
-
-                    <p>
-                        A recipe application that allows users to explore
-                        recipes and discover simple meal ideas through
-                        an easy-to-use interface.
-                    </p>
-
-                    <div class="project-technologies">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                    </div>
-
-                    <a href="#" class="project-link">
-                        View Project →
-                    </a>
-
-                </article>
-
-
-                <article class="project-card">
-
-                    <div class="project-number">04</div>
-
-                    <h3>Web Applications</h3>
-
-                    <p>
-                        A collection of academic and personal software
-                        projects focused on solving practical problems
-                        using modern web technologies.
-                    </p>
-
-                    <div class="project-technologies">
-                        <span>React</span>
-                        <span>Express</span>
-                        <span>MySQL</span>
-                    </div>
-
-                    <a href="#" class="project-link">
-                        View Project →
-                    </a>
-
-                </article>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-
-        <div class="section-container">
-
-            <h2>Get In Touch</h2>
-
-            <p class="contact-introduction">
-                Feel free to contact me if you would like to discuss a
-                project, collaboration, or software development
-                opportunity.
-            </p>
-
-
-            <!-- Contact Information -->
-            <div class="contact-grid">
-
-                <!-- Email -->
-                <div class="contact-card">
-
-                    <h3>Email</h3>
-
-                    <p>
-                        Send me an email and I will get back to you.
-                    </p>
-
-                    <a href="mailto:your-email@example.com">
-                        your-email@example.com
-                    </a>
-
-                </div>
-
-
-                <!-- GitHub -->
-                <div class="contact-card">
-
-                    <h3>GitHub</h3>
-
-                    <p>
-                        View my projects and source code on GitHub.
-                    </p>
-
-                    <a
-                        href="https://github.com/IS-PROJECT-2026/portfolio-169685"
-                        target="_blank"
-                        rel="noopener noreferrer">
-
-                        View My GitHub Repository
-
-                    </a>
-
-                </div>
-
-
-                <!-- Contact Information -->
-                <div class="contact-card">
-
-                    <h3>Contact Information</h3>
-
-                    <p>
-                        I am available for collaboration, projects,
-                        internships, and software development
-                        opportunities.
-                    </p>
-
-                    <p class="contact-location">
-                        Nairobi, Kenya
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <!-- Contact Button -->
-            <div class="contact-button">
-
-                <a href="mailto:your-email@example.com"
-                   class="btn primary-btn">
-
-                    Send Me an Email
-
-                </a>
-
-            </div>
-
-        </div>
-
-    </section>
 
 
     <!-- Footer -->
@@ -564,10 +721,13 @@
             © 2026 Luis Okal. All rights reserved.
         </p>
 
-        <div class="footer-links">
+
+        <nav
+            class="footer-links"
+            aria-label="Footer navigation">
 
             <a href="mailto:your-email@example.com">
-                Email
+                Email Luis
             </a>
 
             <a
@@ -575,15 +735,16 @@
                 target="_blank"
                 rel="noopener noreferrer">
 
-                GitHub
+                GitHub Portfolio Repository
 
             </a>
 
-        </div>
+        </nav>
 
     </footer>
 
 
+    <!-- JavaScript -->
     <script src="script.js"></script>
 
 </body>
